@@ -1,0 +1,12 @@
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\bin\Debug\netcoreapp2.2\DreamLines.Infrastructure.deps.json
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\bin\Debug\netcoreapp2.2\DreamLines.Infrastructure.dll
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\bin\Debug\netcoreapp2.2\DreamLines.Infrastructure.pdb
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\bin\Debug\netcoreapp2.2\DreamLines.Core.dll
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\bin\Debug\netcoreapp2.2\DreamLines.Core.pdb
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\obj\Debug\netcoreapp2.2\DreamLines.Infrastructure.csprojAssemblyReference.cache
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\obj\Debug\netcoreapp2.2\DreamLines.Infrastructure.csproj.CoreCompileInputs.cache
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\obj\Debug\netcoreapp2.2\DreamLines.Infrastructure.AssemblyInfoInputs.cache
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\obj\Debug\netcoreapp2.2\DreamLines.Infrastructure.AssemblyInfo.cs
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\obj\Debug\netcoreapp2.2\DreamLines.Infrastructure.csproj.CopyComplete
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\obj\Debug\netcoreapp2.2\DreamLines.Infrastructure.dll
+C:\DreamLines\DreamLines\DreamLines.Infrastructure\obj\Debug\netcoreapp2.2\DreamLines.Infrastructure.pdb

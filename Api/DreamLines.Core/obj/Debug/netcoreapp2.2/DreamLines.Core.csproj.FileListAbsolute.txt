@@ -1,0 +1,9 @@
+C:\DreamLines\DreamLines\DreamLines.Core\bin\Debug\netcoreapp2.2\DreamLines.Core.deps.json
+C:\DreamLines\DreamLines\DreamLines.Core\bin\Debug\netcoreapp2.2\DreamLines.Core.dll
+C:\DreamLines\DreamLines\DreamLines.Core\bin\Debug\netcoreapp2.2\DreamLines.Core.pdb
+C:\DreamLines\DreamLines\DreamLines.Core\obj\Debug\netcoreapp2.2\DreamLines.Core.csproj.CoreCompileInputs.cache
+C:\DreamLines\DreamLines\DreamLines.Core\obj\Debug\netcoreapp2.2\DreamLines.Core.AssemblyInfoInputs.cache
+C:\DreamLines\DreamLines\DreamLines.Core\obj\Debug\netcoreapp2.2\DreamLines.Core.AssemblyInfo.cs
+C:\DreamLines\DreamLines\DreamLines.Core\obj\Debug\netcoreapp2.2\DreamLines.Core.dll
+C:\DreamLines\DreamLines\DreamLines.Core\obj\Debug\netcoreapp2.2\DreamLines.Core.pdb
+C:\DreamLines\DreamLines\DreamLines.Core\obj\Debug\netcoreapp2.2\DreamLines.Core.csprojAssemblyReference.cache

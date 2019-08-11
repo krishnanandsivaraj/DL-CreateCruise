@@ -1,0 +1,60 @@
+<h1>Create Cruise</h1>
+<mat-form-field>
+  <mat-label>CruiseLine</mat-label>
+  <mat-select [disabled]="cruisedisabled" (selectionChange)="changeClient($event.value)">
+    <mat-option *ngFor=" let cruise of cruiseLine" [value]="cruise.nid">
+      {{cruise.title}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<br />
+<mat-form-field>
+  <mat-label>Ship</mat-label>
+  <mat-select required [disabled]="shipsdisabled" (selectionChange)="changeShip($event.value)">
+    <mat-option *ngFor="let ship of ships" [value]="ship.ship_id">
+      {{ship.title}}
+    </mat-option>
+  </mat-select>
+
+</mat-form-field>
+<br />
+<mat-form-field>
+  <mat-label>Cabin category</mat-label>
+  <mat-select required [disabled]="catagorydisabled" (selectionChange)="changeCatagory($event.value)">
+    <mat-option *ngFor="let catagory of catagories" [value]="catagory.company_id">
+      {{catagory.title}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<br />
+<mat-form-field class="mr20"><input matInput placeholder="Day" /></mat-form-field>
+<mat-form-field>
+  <mat-label>Port</mat-label>
+  <mat-select required>
+    <mat-option *ngFor="let port of ports" [value]="port.value">
+      {{port.viewValue}}
+    </mat-option>
+  </mat-select>
+
+</mat-form-field>
+<span>Route UI is work in progress, success /failure alerts should be toaster or snackbar message</span>
+<mat-chip-list aria-label="selection">
+  <mat-chip>
+    <h2>-</h2>
+  </mat-chip>
+</mat-chip-list>
+<mat-chip-list aria-label="selection">
+  <mat-chip>
+    <h2>+</h2>
+  </mat-chip>
+</mat-chip-list>
+<br />
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" (dateChange)="EndDateChange($event)" placeholder="Departure date">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+<br />
+<mat-checkbox #c (click)="toggle(!c.checked)">Flight included</mat-checkbox>
+<button (click)="Create()" [disabled]="isvalid" mat-raised-button color="primary">Create</button>
